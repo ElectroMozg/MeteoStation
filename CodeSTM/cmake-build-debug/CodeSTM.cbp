@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CodeSTM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CodeSTM.elf">
+				<Option output="D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CodeSTM.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DSTM32WB55xx"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Device/ST/STM32WBxx/Include"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeSTM.elf"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CodeSTM.elf/fast">
+				<Option output="D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CodeSTM.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DSTM32WB55xx"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Device/ST/STM32WBxx/Include"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="c:\software\gnu arm 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeSTM.elf/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~2.0-W/mingw32/bin/mingw32-make.exe -f &quot;D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc/gpio.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc/main.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc/stm32_assert.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc/stm32wbxx_hal_conf.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc/stm32wbxx_it.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc/usart.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc/usb.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/gpio.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/main.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/stm32wbxx_hal_msp.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/stm32wbxx_it.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/syscalls.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/sysmem.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/system_stm32wbxx.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/usart.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/usb.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Startup/startup_stm32wb55rgvx.s">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_hsem.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd_ex.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_cortex.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_gpio.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usart.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_utils.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_exti.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_gpio.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/STM32WB55RGVX_FLASH.ld">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

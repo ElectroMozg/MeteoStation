@@ -1,3 +1,4 @@
+import com.sun.xml.internal.bind.v2.TODO;
 import jssc.SerialPort;
 import jssc.SerialPortEvent;
 import jssc.SerialPortEventListener;
@@ -7,6 +8,7 @@ import java.io.BufferedReader;
 import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.Scanner;
+import java.util.concurrent.ConcurrentLinkedDeque;
 
 public class MassageTerminal {
 
@@ -16,7 +18,7 @@ public class MassageTerminal {
     private static SerialPort serialPort;
 
     public MassageTerminal() {
-        massages = new ArrayDeque<>();
+        massages = new ConcurrentLinkedDeque<>();
         //Передаём в конструктор имя порта
         serialPort = new SerialPort(COM_PORT);
         try {
@@ -62,7 +64,7 @@ public class MassageTerminal {
 
         public void serialEvent(SerialPortEvent event) {
             int sizeByte = event.getEventValue();
-            if (event.isRXCHAR() && sizeByte > 100) {
+            if (event.isRXCHAR() && sizeByte > 20) {
                 try {
                     //Получаем ответ от устройства, обрабатываем данные и складываем в очередь сообщений.
                     String data = serialPort.readString();
@@ -70,6 +72,7 @@ public class MassageTerminal {
                     while (buffer.hasNextLine()){
                         massages.add(buffer.nextLine());
                     }
+                    //TODO Избавиться от проблемы потери последней посылки
                 } catch (SerialPortException ex) {
                     System.out.println(ex);
                 }
