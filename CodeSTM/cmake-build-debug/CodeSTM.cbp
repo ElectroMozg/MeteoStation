@@ -29,6 +29,7 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DSTM32WB55xx"/>
 					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Inc"/>
 					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc"/>
 					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Device/ST/STM32WBxx/Include"/>
@@ -59,6 +60,7 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DSTM32WB55xx"/>
 					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc"/>
+					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Inc"/>
 					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc"/>
 					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/CMSIS/Device/ST/STM32WBxx/Include"/>
@@ -104,6 +106,9 @@
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc/main.h">
 			<Option target="CodeSTM.elf"/>
 		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc/spi.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Inc/stm32_assert.h">
 			<Option target="CodeSTM.elf"/>
 		</Unit>
@@ -123,6 +128,9 @@
 			<Option target="CodeSTM.elf"/>
 		</Unit>
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/main.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/spi.c">
 			<Option target="CodeSTM.elf"/>
 		</Unit>
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/stm32wbxx_hal_msp.c">
@@ -284,6 +292,12 @@
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h">
 			<Option target="CodeSTM.elf"/>
 		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h">
 			<Option target="CodeSTM.elf"/>
 		</Unit>
@@ -374,6 +388,12 @@
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c">
 			<Option target="CodeSTM.elf"/>
 		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c">
 			<Option target="CodeSTM.elf"/>
 		</Unit>
@@ -399,6 +419,27 @@
 			<Option target="CodeSTM.elf"/>
 		</Unit>
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Inc/Config.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Inc/Pattern.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Inc/Terminal.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Inc/Uart.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Pattern.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Terminal.c">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Uart.c">
 			<Option target="CodeSTM.elf"/>
 		</Unit>
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/STM32WB55RGVX_FLASH.ld">

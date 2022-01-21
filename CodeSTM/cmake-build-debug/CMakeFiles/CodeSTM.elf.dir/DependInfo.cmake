@@ -20,6 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Core/Inc"
+  "../Mylib/Inc"
   "../Drivers/STM32WBxx_HAL_Driver/Inc"
   "../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32WBxx/Include"
@@ -28,6 +29,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_CHECK_C
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/gpio.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Core/Src/gpio.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/main.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj"
+  "D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/spi.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/stm32wbxx_hal_msp.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/stm32wbxx_it.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_it.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/syscalls.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Core/Src/syscalls.c.obj"
@@ -50,6 +52,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj"
+  "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.obj"
+  "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c.obj"
@@ -59,6 +63,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj"
+  "D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Pattern.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj"
+  "D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Terminal.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj"
+  "D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Uart.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -73,6 +80,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Core/Inc"
+  "../Mylib/Inc"
   "../Drivers/STM32WBxx_HAL_Driver/Inc"
   "../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32WBxx/Include"

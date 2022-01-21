@@ -15,7 +15,7 @@
 		while(*str)
 		{
 			 while (!LL_USART_IsActiveFlag_TXE(TERMINAL_UART)) {}
-			LL_USART_TransmitData8(TERMINAL_UART,(*str++ & 0x01FF));
+			LL_USART_TransmitData8(TERMINAL_UART,(uint8_t)*str++ );
 		}
 	}
 /************************************************************/
@@ -29,7 +29,7 @@
 		
   uint16_t ind = 0;
   while (!LL_USART_IsActiveFlag_RXNE(TERMINAL_UART)) {}
-  str[ind] = (uint8_t)(TERMINAL_UART->DR & 0x00FF);
+  str[ind] = (uint8_t)(TERMINAL_UART->RDR & 0x00FF);
   while(str[ind])
   {
     ind++;
@@ -37,7 +37,7 @@
 			break;
 		}
     while (!LL_USART_IsActiveFlag_RXNE(TERMINAL_UART)) {}
-    str[ind] = (uint8_t)(TERMINAL_UART->DR & 0x00FF);
+    str[ind] = (uint8_t)(TERMINAL_UART->RDR & 0x00FF);
   }
 	}
 /************************************************************/

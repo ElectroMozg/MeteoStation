@@ -82,9 +82,22 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.s"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Src\main.c -o CMakeFiles\CodeSTM.elf.dir\Core\Src\main.c.s
 
+CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
+CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.obj"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Core\Src\spi.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Src\spi.c
+
+CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.i"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Src\spi.c > CMakeFiles\CodeSTM.elf.dir\Core\Src\spi.c.i
+
+CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.s"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Src\spi.c -o CMakeFiles\CodeSTM.elf.dir\Core\Src\spi.c.s
+
 CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj: ../Core/Src/stm32wbxx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Core\Src\stm32wbxx_hal_msp.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Src\stm32wbxx_hal_msp.c
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_hal_msp.c.i: cmake_force
@@ -97,7 +110,7 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_hal_msp.c.s: cmake_force
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_it.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_it.c.obj: ../Core/Src/stm32wbxx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_it.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Core\Src\stm32wbxx_it.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Src\stm32wbxx_it.c
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_it.c.i: cmake_force
@@ -110,7 +123,7 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_it.c.s: cmake_force
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/syscalls.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Core\Src\syscalls.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Src\syscalls.c
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -123,7 +136,7 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/sysmem.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Core\Src\sysmem.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Src\sysmem.c
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -136,7 +149,7 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/sysmem.c.s: cmake_force
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/system_stm32wbxx.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Core/Src/system_stm32wbxx.c.obj: ../Core/Src/system_stm32wbxx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/system_stm32wbxx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/system_stm32wbxx.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Core\Src\system_stm32wbxx.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Src\system_stm32wbxx.c
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/system_stm32wbxx.c.i: cmake_force
@@ -149,7 +162,7 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/system_stm32wbxx.c.s: cmake_force
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/usart.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/usart.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Core\Src\usart.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Src\usart.c
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -162,7 +175,7 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/usb.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Core/Src/usb.c.obj: ../Core/Src/usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CodeSTM.elf.dir/Core/Src/usb.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Core\Src\usb.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Src\usb.c
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/usb.c.i: cmake_force
@@ -175,12 +188,12 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/usb.c.s: cmake_force
 
 CMakeFiles/CodeSTM.elf.dir/Core/Startup/startup_stm32wb55rgvx.s.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Core/Startup/startup_stm32wb55rgvx.s.obj: ../Core/Startup/startup_stm32wb55rgvx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/CodeSTM.elf.dir/Core/Startup/startup_stm32wb55rgvx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/CodeSTM.elf.dir/Core/Startup/startup_stm32wb55rgvx.s.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Core\Startup\startup_stm32wb55rgvx.s.obj -c D:\Study\Java\Project\MetoStaion\CodeSTM\Core\Startup\startup_stm32wb55rgvx.s
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.i: cmake_force
@@ -193,7 +206,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.s: c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_cortex.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_cortex.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.i: cmake_force
@@ -206,7 +219,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_dma.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_dma.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.i: cmake_force
@@ -219,7 +232,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_dma_ex.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_dma_ex.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.i: cmake_force
@@ -232,7 +245,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_exti.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_exti.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.i: cmake_force
@@ -245,7 +258,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_flash.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_flash.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.i: cmake_force
@@ -258,7 +271,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_flash_ex.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_flash_ex.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.i: cmake_force
@@ -271,7 +284,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_gpio.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_gpio.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.i: cmake_force
@@ -284,7 +297,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_hsem.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_hsem.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.i: cmake_force
@@ -297,7 +310,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pcd.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pcd.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.i: cmake_force
@@ -310,7 +323,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pcd_ex.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pcd_ex.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.i: cmake_force
@@ -323,7 +336,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pwr.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pwr.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.i: cmake_force
@@ -336,7 +349,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pwr_ex.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pwr_ex.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.i: cmake_force
@@ -349,7 +362,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.i: cmake_force
@@ -362,7 +375,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc_ex.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc_ex.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.i: cmake_force
@@ -373,9 +386,35 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.s"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc_ex.c -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc_ex.c.s
 
+CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
+CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.obj"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi.c
+
+CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.i"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi.c > CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi.c.i
+
+CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.s"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi.c -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi.c.s
+
+CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
+CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.obj"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi_ex.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi_ex.c
+
+CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.i"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi_ex.c > CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi_ex.c.i
+
+CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.s"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi_ex.c -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_spi_ex.c.s
+
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_tim.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_tim.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.i: cmake_force
@@ -388,7 +427,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_tim_ex.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_tim_ex.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.i: cmake_force
@@ -401,7 +440,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_dma.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_dma.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c.i: cmake_force
@@ -414,7 +453,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c.s
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_exti.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_exti.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_exti.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_exti.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_exti.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_exti.c.i: cmake_force
@@ -427,7 +466,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_exti.c.
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_gpio.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_gpio.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_gpio.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_gpio.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_gpio.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_gpio.c.i: cmake_force
@@ -440,7 +479,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_gpio.c.
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_rcc.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_rcc.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.i: cmake_force
@@ -453,7 +492,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.s
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_usart.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_usart.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.i: cmake_force
@@ -466,7 +505,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_usb.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_usb.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.i: cmake_force
@@ -479,7 +518,7 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.s
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_utils.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_utils.c
 
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.i: cmake_force
@@ -490,10 +529,50 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.s"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_utils.c -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_utils.c.s
 
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj: ../Mylib/Src/Pattern.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Pattern.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Pattern.c
+
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.i"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Pattern.c > CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Pattern.c.i
+
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.s"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Pattern.c -o CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Pattern.c.s
+
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj: ../Mylib/Src/Terminal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Terminal.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Terminal.c
+
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.i"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Terminal.c > CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Terminal.c.i
+
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.s"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Terminal.c -o CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Terminal.c.s
+
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj: ../Mylib/Src/Uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Uart.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Uart.c
+
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.i"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Uart.c > CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Uart.c.i
+
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.s"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Uart.c -o CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Uart.c.s
+
 # Object files for target CodeSTM.elf
 CodeSTM_elf_OBJECTS = \
 "CMakeFiles/CodeSTM.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj" \
+"CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_it.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Core/Src/syscalls.c.obj" \
@@ -517,6 +596,8 @@ CodeSTM_elf_OBJECTS = \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj" \
+"CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.obj" \
+"CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c.obj" \
@@ -525,13 +606,17 @@ CodeSTM_elf_OBJECTS = \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj" \
-"CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj"
+"CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj" \
+"CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj" \
+"CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj" \
+"CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj"
 
 # External object files for target CodeSTM.elf
 CodeSTM_elf_EXTERNAL_OBJECTS =
 
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Core/Src/gpio.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj
+CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_it.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Core/Src/syscalls.c.obj
@@ -555,6 +640,8 @@ CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wb
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj
+CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.obj
+CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c.obj
@@ -564,9 +651,12 @@ CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wb
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj
+CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj
+CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj
+CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/build.make
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking C executable CodeSTM.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking C executable CodeSTM.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CodeSTM.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CodeSTM.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CodeSTM.bin"

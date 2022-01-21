@@ -101,7 +101,10 @@ int main(void)
     HAL_GPIO_TogglePin(LD2_GPIO_Port,LD3_Pin);
     //HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
     //HAL_GPIO_TogglePin(LD1_GPIO_Port,LD1_Pin);
-    gTerminal_Send("Thick\r\n");
+//
+
+    gTerminal_Send("1234\r\n");
+    gTerminal_Send("Hello\r\n");
     HAL_Delay(1000);
 
     /* USER CODE BEGIN 3 */

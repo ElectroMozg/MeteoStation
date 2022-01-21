@@ -7,11 +7,11 @@ ASM_FLAGS = -g
 
 ASM_DEFINES = -DDEBUG -DSTM32WB55xx -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -ID:\Study\Java\Project\MetoStaion\CodeSTM\Core\Inc -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Inc -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\CMSIS\Device\ST\STM32WBxx\Include -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\CMSIS\Include 
+ASM_INCLUDES = -ID:\Study\Java\Project\MetoStaion\CodeSTM\Core\Inc -ID:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Inc -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Inc -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\CMSIS\Device\ST\STM32WBxx\Include -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\CMSIS\Include 
 
 C_FLAGS = -mcpu=cortex-m4  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0  -std=gnu99 -g  
 
 C_DEFINES = -DDEBUG -DSTM32WB55xx -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
 
-C_INCLUDES = -ID:\Study\Java\Project\MetoStaion\CodeSTM\Core\Inc -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Inc -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\CMSIS\Device\ST\STM32WBxx\Include -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\CMSIS\Include 
+C_INCLUDES = -ID:\Study\Java\Project\MetoStaion\CodeSTM\Core\Inc -ID:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Inc -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Inc -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\CMSIS\Device\ST\STM32WBxx\Include -ID:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\CMSIS\Include 
 

@@ -37,6 +37,8 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/gpio.c.obj
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -54,9 +56,6 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/gpio.c.obj
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_utils.h
  D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/gpio.c
 CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj
- ../Core/Inc/Terminal.h
- ../Core/Inc/Uart.h
- ../Core/Inc/config.h
  ../Core/Inc/gpio.h
  ../Core/Inc/main.h
  ../Core/Inc/stm32wbxx_hal_conf.h
@@ -92,6 +91,8 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -108,6 +109,58 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_utils.h
  D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/main.c
+CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.obj
+ ../Core/Inc/main.h
+ ../Core/Inc/spi.h
+ ../Core/Inc/stm32wbxx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_hsem.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_cortex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_gpio.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usart.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_utils.h
+ D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/spi.c
 CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj
  ../Core/Inc/main.h
  ../Core/Inc/stm32wbxx_hal_conf.h
@@ -141,6 +194,8 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -191,6 +246,8 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/stm32wbxx_it.c.obj
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -243,6 +300,8 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/system_stm32wbxx.c.obj
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -289,6 +348,8 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/usart.c.obj
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -339,6 +400,8 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/usb.c.obj
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -387,6 +450,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -431,6 +496,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -475,6 +542,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -519,6 +588,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -563,6 +634,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -607,6 +680,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -651,6 +726,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -695,6 +772,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -739,6 +818,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -783,6 +864,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -827,6 +910,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -871,6 +956,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -915,6 +1002,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -959,6 +1048,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -1003,6 +1094,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -1015,6 +1108,98 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h
  D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c
+CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.obj
+ ../Core/Inc/stm32wbxx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_hsem.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h
+ D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c
+CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.obj
+ ../Core/Inc/stm32wbxx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_hsem.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h
+ D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c
 CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj
  ../Core/Inc/stm32wbxx_hal_conf.h
  ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h
@@ -1047,6 +1232,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -1091,6 +1278,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -1136,6 +1325,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_dma.c.o
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -1181,6 +1372,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_exti.c.
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -1226,6 +1419,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_gpio.c.
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -1272,6 +1467,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.o
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -1317,6 +1514,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -1362,6 +1561,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.o
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -1407,6 +1608,8 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
@@ -1420,3 +1623,105 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_utils.h
  D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj
+ ../Mylib/Inc/Pattern.h
+ D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Pattern.c
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj
+ ../Core/Inc/stm32wbxx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_hsem.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usart.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h
+ ../Mylib/Inc/Config.h
+ ../Mylib/Inc/Terminal.h
+ ../Mylib/Inc/Uart.h
+ D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Terminal.c
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj
+ ../Core/Inc/stm32wbxx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h
+ ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_hsem.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usart.h
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h
+ ../Mylib/Inc/Config.h
+ ../Mylib/Inc/Uart.h
+ D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Uart.c

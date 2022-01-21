@@ -176,6 +176,33 @@ Core/Src/main.c.s:
 	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
+Core/Src/spi.obj: Core/Src/spi.c.obj
+
+.PHONY : Core/Src/spi.obj
+
+# target to build an object file
+Core/Src/spi.c.obj:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.c.obj
+
+Core/Src/spi.i: Core/Src/spi.c.i
+
+.PHONY : Core/Src/spi.i
+
+# target to preprocess a source file
+Core/Src/spi.c.i:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.i
+.PHONY : Core/Src/spi.c.i
+
+Core/Src/spi.s: Core/Src/spi.c.s
+
+.PHONY : Core/Src/spi.s
+
+# target to generate assembly for a file
+Core/Src/spi.c.s:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.s
+.PHONY : Core/Src/spi.c.s
+
 Core/Src/stm32wbxx_hal_msp.obj: Core/Src/stm32wbxx_hal_msp.c.obj
 
 .PHONY : Core/Src/stm32wbxx_hal_msp.obj
@@ -779,6 +806,60 @@ Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.s:
 	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.s
 
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.obj: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.obj
+
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.obj
+
+# target to build an object file
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.obj:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.obj
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.obj
+
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.i: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.i
+
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.i
+
+# target to preprocess a source file
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.i:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.i
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.i
+
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.s: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.s
+
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.s
+
+# target to generate assembly for a file
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.s:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.s
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c.s
+
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.obj: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.obj
+
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.obj
+
+# target to build an object file
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.obj:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.obj
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.obj
+
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.i: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.i
+
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.i
+
+# target to preprocess a source file
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.i:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.i
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.i
+
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.s: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.s
+
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.s:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.s
+.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c.s
+
 Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.obj: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj
 
 .PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.obj
@@ -1022,6 +1103,87 @@ Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.s:
 	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.s
 .PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.s
 
+Mylib/Src/Pattern.obj: Mylib/Src/Pattern.c.obj
+
+.PHONY : Mylib/Src/Pattern.obj
+
+# target to build an object file
+Mylib/Src/Pattern.c.obj:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj
+.PHONY : Mylib/Src/Pattern.c.obj
+
+Mylib/Src/Pattern.i: Mylib/Src/Pattern.c.i
+
+.PHONY : Mylib/Src/Pattern.i
+
+# target to preprocess a source file
+Mylib/Src/Pattern.c.i:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.i
+.PHONY : Mylib/Src/Pattern.c.i
+
+Mylib/Src/Pattern.s: Mylib/Src/Pattern.c.s
+
+.PHONY : Mylib/Src/Pattern.s
+
+# target to generate assembly for a file
+Mylib/Src/Pattern.c.s:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.s
+.PHONY : Mylib/Src/Pattern.c.s
+
+Mylib/Src/Terminal.obj: Mylib/Src/Terminal.c.obj
+
+.PHONY : Mylib/Src/Terminal.obj
+
+# target to build an object file
+Mylib/Src/Terminal.c.obj:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj
+.PHONY : Mylib/Src/Terminal.c.obj
+
+Mylib/Src/Terminal.i: Mylib/Src/Terminal.c.i
+
+.PHONY : Mylib/Src/Terminal.i
+
+# target to preprocess a source file
+Mylib/Src/Terminal.c.i:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.i
+.PHONY : Mylib/Src/Terminal.c.i
+
+Mylib/Src/Terminal.s: Mylib/Src/Terminal.c.s
+
+.PHONY : Mylib/Src/Terminal.s
+
+# target to generate assembly for a file
+Mylib/Src/Terminal.c.s:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.s
+.PHONY : Mylib/Src/Terminal.c.s
+
+Mylib/Src/Uart.obj: Mylib/Src/Uart.c.obj
+
+.PHONY : Mylib/Src/Uart.obj
+
+# target to build an object file
+Mylib/Src/Uart.c.obj:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj
+.PHONY : Mylib/Src/Uart.c.obj
+
+Mylib/Src/Uart.i: Mylib/Src/Uart.c.i
+
+.PHONY : Mylib/Src/Uart.i
+
+# target to preprocess a source file
+Mylib/Src/Uart.c.i:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.i
+.PHONY : Mylib/Src/Uart.c.i
+
+Mylib/Src/Uart.s: Mylib/Src/Uart.c.s
+
+.PHONY : Mylib/Src/Uart.s
+
+# target to generate assembly for a file
+Mylib/Src/Uart.c.s:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.s
+.PHONY : Mylib/Src/Uart.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1037,6 +1199,9 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/spi.obj
+	@echo ... Core/Src/spi.i
+	@echo ... Core/Src/spi.s
 	@echo ... Core/Src/stm32wbxx_hal_msp.obj
 	@echo ... Core/Src/stm32wbxx_hal_msp.i
 	@echo ... Core/Src/stm32wbxx_hal_msp.s
@@ -1104,6 +1269,12 @@ help:
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.i
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.s
+	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.obj
+	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.i
+	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.s
+	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.obj
+	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.i
+	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.s
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.obj
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.i
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.s
@@ -1131,6 +1302,15 @@ help:
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.obj
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.i
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.s
+	@echo ... Mylib/Src/Pattern.obj
+	@echo ... Mylib/Src/Pattern.i
+	@echo ... Mylib/Src/Pattern.s
+	@echo ... Mylib/Src/Terminal.obj
+	@echo ... Mylib/Src/Terminal.i
+	@echo ... Mylib/Src/Terminal.s
+	@echo ... Mylib/Src/Uart.obj
+	@echo ... Mylib/Src/Uart.i
+	@echo ... Mylib/Src/Uart.s
 .PHONY : help
 
 

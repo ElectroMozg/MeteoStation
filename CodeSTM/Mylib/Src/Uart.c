@@ -32,7 +32,7 @@
 	uint8_t gUart_Receive_Byte (USART_TypeDef *huart)
 	{
 		 while (!LL_USART_IsActiveFlag_RXNE(huart)) {}
-		return (uint8_t)(READ_BIT(huart->DR, USART_DR_DR));
+		return (uint8_t)(READ_BIT(huart->RDR, USART_RDR_RDR));
 	}
 /************************************************************/
 /**
@@ -45,7 +45,7 @@
 	{
 		for (int i = 0; i < Size; i++) 
 		{
-			*(pData+i) = READ_BIT(huart->DR, USART_DR_DR);
+			*(pData+i) = READ_BIT(huart->RDR, USART_RDR_RDR);
 		}
 	}
 /************************************************************/
@@ -58,7 +58,7 @@
 		while(*str)
 		{
 			 while (!LL_USART_IsActiveFlag_TXE(TERMINAL_UART)) {}
-			LL_USART_TransmitData8(USART1,(*str++ & 0x01FF));
+			LL_USART_TransmitData8(TERMINAL_UART,(uint8_t)*str++ );
 		}
 	}
 /************************************************************/
