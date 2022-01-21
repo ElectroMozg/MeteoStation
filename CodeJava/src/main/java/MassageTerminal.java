@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentLinkedDeque;
 
 public class MassageTerminal {
 
-    private static final String COM_PORT = "COM12";
+    private static final String COM_PORT = "COM4";
 
     private static Queue<String> massages;
     private static SerialPort serialPort;

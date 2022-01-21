@@ -103,9 +103,12 @@ int main(void)
     //HAL_GPIO_TogglePin(LD1_GPIO_Port,LD1_Pin);
 //
 
-    gTerminal_Send("1234\r\n");
     gTerminal_Send("Hello\r\n");
-    HAL_Delay(1000);
+    HAL_Delay(5000);
+    gTerminal_Send("Im in Swing\r\n");
+    HAL_Delay(5000);
+    gTerminal_Send("I Work\r\n");
+    HAL_Delay(5000);
 
     /* USER CODE BEGIN 3 */
   }

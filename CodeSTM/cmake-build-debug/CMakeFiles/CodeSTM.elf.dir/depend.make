@@ -107,6 +107,9 @@ CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32WBxx_HAL_Driver/
 CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usart.h
 CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h
 CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_utils.h
+CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj: ../Mylib/Inc/Config.h
+CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj: ../Mylib/Inc/Terminal.h
+CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj: ../Mylib/Inc/Uart.h
 CMakeFiles/CodeSTM.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
 
 CMakeFiles/CodeSTM.elf.dir/Core/Src/spi.c.obj: ../Core/Inc/main.h
