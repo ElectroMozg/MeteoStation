@@ -529,9 +529,22 @@ CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.s"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\Java\Project\MetoStaion\CodeSTM\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_utils.c -o CMakeFiles\CodeSTM.elf.dir\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_utils.c.s
 
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.obj: ../Mylib/Src/BME280.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.obj"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Mylib\Src\BME280.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\BME280.c
+
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.i"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\BME280.c > CMakeFiles\CodeSTM.elf.dir\Mylib\Src\BME280.c.i
+
+CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.s"
+	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\BME280.c -o CMakeFiles\CodeSTM.elf.dir\Mylib\Src\BME280.c.s
+
 CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj: ../Mylib/Src/Pattern.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Pattern.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Pattern.c
 
 CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.i: cmake_force
@@ -544,7 +557,7 @@ CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.s: cmake_force
 
 CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj: ../Mylib/Src/Terminal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Terminal.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Terminal.c
 
 CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.i: cmake_force
@@ -557,7 +570,7 @@ CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.s: cmake_force
 
 CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj: CMakeFiles/CodeSTM.elf.dir/flags.make
 CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj: ../Mylib/Src/Uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj"
 	C:\Software\GNUARM~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CodeSTM.elf.dir\Mylib\Src\Uart.c.obj   -c D:\Study\Java\Project\MetoStaion\CodeSTM\Mylib\Src\Uart.c
 
 CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.i: cmake_force
@@ -607,6 +620,7 @@ CodeSTM_elf_OBJECTS = \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj" \
+"CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj" \
 "CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj"
@@ -651,12 +665,13 @@ CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wb
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj
+CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/build.make
 CodeSTM.elf: CMakeFiles/CodeSTM.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking C executable CodeSTM.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Study\Java\Project\MetoStaion\CodeSTM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking C executable CodeSTM.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CodeSTM.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CodeSTM.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CodeSTM.bin"

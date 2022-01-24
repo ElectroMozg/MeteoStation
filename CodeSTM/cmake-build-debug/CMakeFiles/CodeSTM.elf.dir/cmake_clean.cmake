@@ -36,6 +36,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.obj"
   "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj"
   "CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj"
+  "CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.obj"
   "CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj"
   "CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj"
   "CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj"

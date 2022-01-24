@@ -1103,6 +1103,33 @@ Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.s:
 	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.s
 .PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.s
 
+Mylib/Src/BME280.obj: Mylib/Src/BME280.c.obj
+
+.PHONY : Mylib/Src/BME280.obj
+
+# target to build an object file
+Mylib/Src/BME280.c.obj:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.obj
+.PHONY : Mylib/Src/BME280.c.obj
+
+Mylib/Src/BME280.i: Mylib/Src/BME280.c.i
+
+.PHONY : Mylib/Src/BME280.i
+
+# target to preprocess a source file
+Mylib/Src/BME280.c.i:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.i
+.PHONY : Mylib/Src/BME280.c.i
+
+Mylib/Src/BME280.s: Mylib/Src/BME280.c.s
+
+.PHONY : Mylib/Src/BME280.s
+
+# target to generate assembly for a file
+Mylib/Src/BME280.c.s:
+	$(MAKE) -f CMakeFiles\CodeSTM.elf.dir\build.make CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.s
+.PHONY : Mylib/Src/BME280.c.s
+
 Mylib/Src/Pattern.obj: Mylib/Src/Pattern.c.obj
 
 .PHONY : Mylib/Src/Pattern.obj
@@ -1302,6 +1329,9 @@ help:
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.obj
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.i
 	@echo ... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.s
+	@echo ... Mylib/Src/BME280.obj
+	@echo ... Mylib/Src/BME280.i
+	@echo ... Mylib/Src/BME280.s
 	@echo ... Mylib/Src/Pattern.obj
 	@echo ... Mylib/Src/Pattern.i
 	@echo ... Mylib/Src/Pattern.s

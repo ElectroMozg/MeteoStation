@@ -1,17 +1,17 @@
+
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 //    MassageTerminal massageTerminal = new MassageTerminal();
-    MeteoGUI meteoGUI = new MeteoGUI();
+        MeteoGUI meteoGUI = new MeteoGUI();
+        Weather weatherNSK = new Weather("Novosibirsk");
 
-    meteoGUI.setVisible(true);
-
-//        while (true){
-//            if(massageTerminal.availableMassage()){
-//                String massage = massageTerminal.getMassage();
-//                System.out.println(massage);
-//
-//            }
-//        }
+        System.out.println("Температура: "+weatherNSK.getTemperature());
+        System.out.println("Влажность: "+weatherNSK.getHumidity()+"%");
+        System.out.println("Давление: "+weatherNSK.getPressure());
+       // meteoGUI.setVisible(true);
     }
+
 }
+

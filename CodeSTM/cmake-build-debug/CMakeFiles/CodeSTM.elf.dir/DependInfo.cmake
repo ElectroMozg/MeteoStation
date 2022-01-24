@@ -63,6 +63,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usart.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c.obj"
+  "D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/BME280.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Mylib/Src/BME280.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Pattern.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Pattern.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Terminal.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Terminal.c.obj"
   "D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Uart.c" "D:/Study/Java/Project/MetoStaion/CodeSTM/cmake-build-debug/CMakeFiles/CodeSTM.elf.dir/Mylib/Src/Uart.c.obj"

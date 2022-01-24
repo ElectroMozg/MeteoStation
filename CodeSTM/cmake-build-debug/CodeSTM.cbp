@@ -421,6 +421,9 @@
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_utils.c">
 			<Option target="CodeSTM.elf"/>
 		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Inc/BME280.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Inc/Config.h">
 			<Option target="CodeSTM.elf"/>
 		</Unit>
@@ -431,6 +434,9 @@
 			<Option target="CodeSTM.elf"/>
 		</Unit>
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Inc/Uart.h">
+			<Option target="CodeSTM.elf"/>
+		</Unit>
+		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/BME280.c">
 			<Option target="CodeSTM.elf"/>
 		</Unit>
 		<Unit filename="D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/Pattern.c">
