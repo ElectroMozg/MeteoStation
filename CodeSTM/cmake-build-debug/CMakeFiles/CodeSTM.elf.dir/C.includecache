@@ -6,30 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../Core/Inc/main.h
-stm32wbxx_hal.h
-../Core/Inc/stm32wbxx_hal.h
-stm32wbxx_ll_usart.h
-../Core/Inc/stm32wbxx_ll_usart.h
-stm32wbxx_ll_rcc.h
-../Core/Inc/stm32wbxx_ll_rcc.h
-stm32wbxx_ll_bus.h
-../Core/Inc/stm32wbxx_ll_bus.h
-stm32wbxx_ll_cortex.h
-../Core/Inc/stm32wbxx_ll_cortex.h
-stm32wbxx_ll_system.h
-../Core/Inc/stm32wbxx_ll_system.h
-stm32wbxx_ll_utils.h
-../Core/Inc/stm32wbxx_ll_utils.h
-stm32wbxx_ll_pwr.h
-../Core/Inc/stm32wbxx_ll_pwr.h
-stm32wbxx_ll_gpio.h
-../Core/Inc/stm32wbxx_ll_gpio.h
-stm32wbxx_ll_dma.h
-../Core/Inc/stm32wbxx_ll_dma.h
-stm32wbxx_ll_exti.h
-../Core/Inc/stm32wbxx_ll_exti.h
-
 ../Core/Inc/stm32wbxx_hal_conf.h
 stm32wbxx_hal_dma.h
 ../Core/Inc/stm32wbxx_hal_dma.h
@@ -95,10 +71,6 @@ stm32wbxx_hal_usart.h
 ../Core/Inc/stm32wbxx_hal_usart.h
 stm32wbxx_hal_wwdg.h
 ../Core/Inc/stm32wbxx_hal_wwdg.h
-
-../Core/Inc/usart.h
-main.h
-../Core/Inc/main.h
 
 ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h
 core_cm4.h
@@ -306,10 +278,6 @@ stm32wbxx_hal_def.h
 stm32wbxx.h
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx.h
 
-../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_cortex.h
-stm32wbxx.h
-../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx.h
-
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h
 stm32wbxx.h
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx.h
@@ -328,10 +296,6 @@ stm32wbxx.h
 stm32wbxx.h
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx.h
 
-../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_gpio.h
-stm32wbxx.h
-../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx.h
-
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h
 stm32wbxx.h
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx.h
@@ -344,19 +308,19 @@ stm32wbxx.h
 stm32wbxx.h
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx.h
 
-../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usart.h
-stm32wbxx.h
-../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx.h
-
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h
 stm32wbxx_hal_def.h
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h
 
-../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_utils.h
-stm32wbxx.h
-../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx.h
+../Mylib/Inc/BME280.h
+stm32wbxx_hal.h
+../Mylib/Inc/stm32wbxx_hal.h
+string.h
+-
+math.h
+-
 
-D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/usart.c
-usart.h
-D:/Study/Java/Project/MetoStaion/CodeSTM/Core/Src/usart.h
+D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/BME280.c
+BME280.h
+D:/Study/Java/Project/MetoStaion/CodeSTM/Mylib/Src/BME280.h
 
