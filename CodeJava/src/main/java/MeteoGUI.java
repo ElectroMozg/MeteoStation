@@ -2,6 +2,8 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
 public class MeteoGUI extends JFrame{
 
@@ -123,10 +125,31 @@ public class MeteoGUI extends JFrame{
         // создадим выпадающее меню
         JMenu viewMenu = new JMenu("Настройки");
         // меню-переключатели
+
+        viewMenu.addChangeListener(new ChangeListener() {
+            @Override
+            public void stateChanged(ChangeEvent e) {
+                JDialog dialog = createDialogProperties("Настройки");
+                dialog.setVisible(true);
+            }
+        });
+
         return viewMenu;
     }
 
+    private JDialog createDialogProperties(String title)
+    {
+        JDialog dialog = new JDialog(this, title, true);
+        dialog.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        dialog.setBounds(1545,150,180,100);
 
+        if(source == Source.OPEN_WEATHER){
+
+        }else if(source == Source.BME280){
+
+        }
+        return dialog;
+    }
 
     class ListenerAction implements ActionListener {
         public void actionPerformed(ActionEvent e) {
