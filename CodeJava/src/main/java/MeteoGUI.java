@@ -1,6 +1,7 @@
 
 import java.awt.*;
 import java.awt.event.*;
+import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
@@ -9,6 +10,8 @@ public class MeteoGUI extends JFrame{
 
     private  Weather weatherNSK = new Weather("Novosibirsk");
     private Source source = Source.OPEN_WEATHER;
+
+    private static ArrayList<String> cityList = new ArrayList<>();
 
     private JLabel labelDegree = new JLabel("Температура");
     private JLabel labelPressure = new JLabel("Давление");
@@ -20,10 +23,17 @@ public class MeteoGUI extends JFrame{
 
 
     public static void main(String[] args)  {
+        cityList.add("Novosibirsk");
+        cityList.add("London");
         new MeteoGUI();
     }
 
+
+
     public MeteoGUI()  {
+
+
+
 
         super("MeteoStation");
         this.setBounds(1450,100,380,200);
@@ -141,13 +151,21 @@ public class MeteoGUI extends JFrame{
     {
         JDialog dialog = new JDialog(this, title, true);
         dialog.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-        dialog.setBounds(1545,150,180,100);
+        dialog.setBounds(1545,150,280,200);
+        JPanel contents = new JPanel();
 
         if(source == Source.OPEN_WEATHER){
 
+            DefaultComboBoxModel<String> cbModel = new DefaultComboBoxModel<>();
+            for (String city : cityList) {
+                cbModel.addElement(city);
+            }
+            JComboBox<String> cbFirst = new JComboBox<String>(cbModel);
+            dialog.add(cbFirst);
         }else if(source == Source.BME280){
 
         }
+        setVisible(true);
         return dialog;
     }
 
